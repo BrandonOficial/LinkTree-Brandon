@@ -492,3 +492,77 @@ a {
     border-radius: 50%;
     box-shadow: 3px 3px 10px var(--shadow-dark), -3px -3px 10px var(--shadow-light);
 }
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+
+    .content {
+        gap: 0.8rem;
+    }
+
+    .widget1,
+    .widget2,
+    .widget3,
+    .widget4,
+    .widget5 {
+        width: 100%;
+        height: auto;
+        padding: 0.8rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-user {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+    }
+
+    .name-user h1 {
+        font-size: 1rem;
+    }
+
+    .name-user span {
+        font-size: 0.7rem;
+    }
+
+    .skills-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .Property-midias {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 125%;
+        height: auto;
+        gap: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .redes-sociais {
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .redes-sociais a {
+        width: 45%;
+        height: 45%;
+    }
+
+    .redes-sociais i {
+        font-size: 2rem;
+    }
+}
+
